@@ -17,6 +17,7 @@ let passwordLength = 10;
 let checkCount =0;
 //set strngth color to grey
 handleslider();
+setindicator("#ccc");
 
 function handleslider(){
     inputSlider.value =passwordLength ;
